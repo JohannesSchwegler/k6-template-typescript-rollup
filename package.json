@@ -1,0 +1,21 @@
+{
+  "name": "k6-template-typescript-rollup",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "author": "Johannes Schwegler",
+  "devDependencies": {
+    "@types/k6": "~0.43.0",
+    "@types/node": "^18.14.6",
+    "cross-env": "^7.0.3",
+    "prettier": "^2.8.4",
+    "rimraf": "^4.3.0",
+    "rollup": "^3.18.0",
+    "rollup-plugin-esbuild": "^5.0.0",
+    "typescript": "4.9.5"
+  },
+  "scripts": {
+    "loadtest": "esno scripts/run.ts",
+    "clean": "rimraf dist",
+    "format": "prettier . --write"
+  }
+}

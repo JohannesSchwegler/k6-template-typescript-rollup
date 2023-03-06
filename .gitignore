@@ -1,0 +1,13 @@
+.DS_Store
+.idea
+.vscode
+.temp
+*.log
+dist
+index.json
+indexes.json
+node_modules
+cache
+coverage
+.eslintcache
+*.tgz
